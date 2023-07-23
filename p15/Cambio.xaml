@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="p15.Cambio"
+             Title="Cambio">
+    <VerticalStackLayout>
+        <Image>
+            
+        </Image>
+        <Label Text="INGRESE PRECIO DE PRODUCTO"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+            
+        </Label>
+        <Entry Placeholder="PRECIO"
+               Keyboard="Numeric"
+               Margin="30,20,30,0"
+               FontSize="20"
+               BackgroundColor="White"
+               x:Name="precioProduc"
+               TextColor="Black">
+            
+        </Entry>
+        <Label Text="INGRESE DINERO DADO POR CLIENTE"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+
+        </Label>
+        <Entry Placeholder="DINERO"
+               Keyboard="Numeric"
+               Margin="30,20,30,0"
+               FontSize="20"
+               BackgroundColor="White"
+               x:Name="dineroCliente"
+               TextColor="Black">
+
+        </Entry>
+        <Label Text="CAMBIO"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0"
+               x:Name="cambioLbl">
+
+        </Label>
+        <Entry Placeholder="CAMBIO"
+               Keyboard="Numeric"
+               Margin="30,20,30,0"
+               FontSize="20"
+               BackgroundColor="White"
+               IsEnabled="False"
+               x:Name="cambioEn">
+
+        </Entry>
+        <Button Text="CALCULAR"
+                Margin="40"
+                HeightRequest="70"
+                BackgroundColor="Green"
+                TextColor="White"
+                x:Name="calBtn"
+                Clicked="calBtn_Clicked">
+            
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>

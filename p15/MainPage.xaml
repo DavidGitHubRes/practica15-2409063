@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="p15.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image Source="menu"
+                   Margin="20">
+                
+            </Image>
+
+            <Button Text="CAMBIO CLIENTE"
+                    x:Name="CambioBtn"
+                    Margin="0,30,0,0"
+                    Clicked="CambioBtn_Clicked">
+                
+            </Button>
+            <Button Text="SUPERFICIE TRIANGULO"
+                    x:Name="SupBtn"
+                    Margin="0,30,0,0"
+                    Clicked="SupBtn_Clicked">
+
+            </Button>
+            <Button Text="DINOSAURIO"
+                    x:Name="DinoBtn"
+                    Margin="0,30,0,0"
+                    Clicked="DinoBtn_Clicked">
+
+            </Button>
+            <Button Text="GASOLINERIA"
+                    x:Name="GasBtn"
+                    Margin="0,30,0,0"
+                    Clicked="GasBtn_Clicked">
+
+            </Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

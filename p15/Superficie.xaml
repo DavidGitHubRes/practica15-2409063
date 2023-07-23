@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="p15.Superficie"
+             Title="Superficie">
+    <VerticalStackLayout>
+        <Image>
+
+        </Image>
+        <Label Text="INGRESE LA BASE DEL TRIANGULO"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+
+        </Label>
+        <Entry Placeholder="BASE"
+               Keyboard="Numeric"
+               Margin="30,20,30,0"
+               FontSize="20"
+               BackgroundColor="White"
+               x:Name="aEn"
+               TextColor="Black">
+
+        </Entry>
+        <Label Text="INGRESE LA ALTURA DEL TRIANGULO"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+
+        </Label>
+        <Entry Placeholder="ALTURA"
+               Keyboard="Numeric"
+               Margin="30,20,30,0"
+               FontSize="20"
+               BackgroundColor="White"
+               x:Name="hEn"
+               TextColor="Black">
+
+        </Entry>
+        <Label Text="SUPERFICIE"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0"
+               x:Name="cambioLbl">
+
+        </Label>
+        <Entry Placeholder="SUPERFICIE"
+               Keyboard="Numeric"
+               Margin="30,20,30,0"
+               FontSize="20"
+               BackgroundColor="White"
+               IsEnabled="False"
+               x:Name="supEn">
+
+        </Entry>
+        <Button Text="CALCULAR"
+                Margin="40"
+                HeightRequest="70"
+                BackgroundColor="Green"
+                TextColor="White"
+                x:Name="calBtn"
+                Clicked="calBtn_Clicked">
+
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>
